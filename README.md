@@ -1,4 +1,34 @@
+# Business Management System (BMS)
 
+A modular, scalable, and extensible business management system designed for organizations. This system helps manage employees, inventory, sales, and invoices efficiently through a user-friendly interface built with **React.js** and modern front-end tools.
+
+> 🚧 **Note:** This system is still under active development. We are continuously working on improving features, structure, and performance to ensure full scalability and production readiness.
+
+---
+
+## 🌟 Features
+
+- 👨‍💼 **Employee Management**  
+  Add, edit, and manage employee records, salaries, departments, and roles.
+
+- 💼 **Sales Management**  
+  Record and track daily sales, manage transactions, and view sales history.
+
+- 🏪 **Inventory Management**  
+  Manage stock, categories, item details, and product quantities.
+
+- 🧾 **Invoice Generation**  
+  Create and view invoices with customer and sales data.
+
+- 🔐 **Role-Based Access**  
+  Admin and seller roles with appropriate permissions.
+
+- 📊 **Dashboard & Analytics**  
+  View real-time summaries of profits, top-selling items, and overall business metrics.
+
+---
+
+## 🧪 Technologies Used
 
 ### 🖥️ Languages
 
@@ -93,4 +123,6 @@ Front-End Developer | React.js Specialist
 
 For feedback, suggestions, or collaborations – feel free to reach out!
 
----
+yaml
+Copy
+Edit
