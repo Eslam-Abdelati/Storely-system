@@ -1,4 +1,4 @@
-# Business Management System (BMS)
+# Business Management System (Vanza)
 
 A modular, scalable, and extensible business management system designed for organizations. This system helps manage employees, inventory, sales, and invoices efficiently through a user-friendly interface built with **React.js** and modern front-end tools.
 
