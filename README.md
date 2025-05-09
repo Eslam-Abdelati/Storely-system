@@ -64,9 +64,7 @@ src/
 ├── main.jsx # App entry point
 └── index.css # Global styles
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -79,18 +77,14 @@ Edit
 ```bash
 git clone https://github.com/your-username/business-management-system.git
 cd business-management-system
+
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
-Run the development server:
 
-bash
-Copy
-Edit
+
+Run the development server:
 npm run dev
+
 🧭 Development Roadmap
  Build dashboard layout and structure
 
@@ -123,6 +117,4 @@ Front-End Developer | React.js Specialist
 
 For feedback, suggestions, or collaborations – feel free to reach out!
 
-yaml
-Copy
-Edit
+
