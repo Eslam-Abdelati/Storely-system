@@ -1,0 +1,10 @@
+.login {
+  height: 100vh;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: transparent;
+}

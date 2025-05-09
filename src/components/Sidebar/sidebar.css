@@ -1,0 +1,96 @@
+/* تنسيق الـ Sidebar */
+/* تنسيق الروابط */
+.sidbar-logo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.version {
+  margin-left: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: var(--text-color) !important;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.sidebar-link .icon {
+  margin-left: 15px;
+  color: var(--text-color);
+}
+.sidebar-link span {
+  color: var(--text-color);
+}
+.sidebar-link:hover {
+  /* background-color: #d8e5ff; */
+  color: var(--primary-color) !important;
+}
+.sidebar-link:hover span,
+.sidebar-link:hover span.name,
+.sidebar-link:hover .icon {
+  color: var(--primary-color) !important;
+}
+
+/* تنسيق القوائم الفرعية */
+.sidebar-sub {
+  background-color: #d4e2fd !important;
+}
+.sidebar-sub li {
+  border-bottom: 1px solid white;
+}
+.sidebar-sub-link {
+  color: var(--main-color) !important;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.sidebar-sub-link .icon {
+  margin-left: 5px;
+  color: var(--main-color) !important;
+}
+.sidebar-sub-link span:hover {
+  color: var(--text-color) !important;
+}
+
+/* زر القائمة القابل للفتح */
+.btn-toggle {
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.offcanvas-body {
+  padding: 0 !important;
+  
+}
+@media (max-width: 992px) {
+  #offcanvasSidebar {
+    width: 220px !important;
+  }
+  .offcanvas-body {
+    padding-right: 0 !important;
+  }
+}
+
+.nav-link.active,
+.nav-link.active .name,
+.nav-link.active .icon {
+  color: var(--primary-color) !important;
+}
+

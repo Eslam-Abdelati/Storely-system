@@ -1,0 +1,34 @@
+.spinner-container-submit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100vh;
+  background-color: rgba(78, 78, 78, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* تأكد إنها تغطي كل شيء */
+}
+@media (max-width: 992px) {
+  .spinner-container-submit {
+    width: 100%;
+  }
+}
+.spinner {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid var(--primary-color);
+  border-top: 4px solid transparent;
+  animation: rotating-spinner 1s linear infinite;
+}
+@keyframes rotating-spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,24 @@
+.product {
+    background-color: var(--bg);
+    padding: 0 10px;
+    height: 100vh;
+  }
+  .produt-table {
+    padding: 20px;
+    background-color: white;
+    border-top: 3px solid var(--header-color);
+    border-radius: 10px;
+  }
+  
+  .table-title {
+    color: var(--primary-color);
+  }
+  .produt-table a.btn {
+    background-color: var(--btn-bgcolor);
+    color: white;
+    border-radius: 0;
+  }
+  .produt-table a.btn:hover {
+    background-color: var(--btn-bgcolor-hover);
+   
+  }

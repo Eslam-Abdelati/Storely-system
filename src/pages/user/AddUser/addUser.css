@@ -1,0 +1,36 @@
+
+.form-control {
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+  color: var(--secondary-color);
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  /* border: 1px solid var(--primary-color); */
+  outline: none !important;
+}
+/* start model */
+.modal-content {
+  margin-top: 30px;
+  border-radius: 0;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-title {
+  font-size: 20px;
+}
+.modal-header .btn-close {
+  font-size: 12px;
+  margin: 0;
+}
+.modal-body {
+  background-color: transparent;
+}
+.modal-body button {
+  border-radius: 0;
+  margin-left: 10px;
+}

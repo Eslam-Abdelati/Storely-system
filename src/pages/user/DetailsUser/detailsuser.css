@@ -1,0 +1,25 @@
+
+.table-details thead tr th {
+    background-color: var(--background-color);
+    color: white;
+}
+.details-user-salary table tbody td {
+    background-color: var(--table-bonuses);
+}
+
+/* start box-salary */
+.box-salary {
+    background-color: var(--bg);
+}
+
+.box-salary .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+}
+.box-salary table thead th {
+    background-color: var(--table-bg);
+}
+
+/* End box-salary */

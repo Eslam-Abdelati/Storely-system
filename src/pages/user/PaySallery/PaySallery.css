@@ -1,0 +1,50 @@
+
+  .pay-ok {
+    background-color: #029902;
+    color: white;
+    border-radius: 0;
+  }
+  .pay-ok:hover {
+    background-color: #01b801;
+    color: white;
+  }
+/* start tabel */
+
+
+.pay-sallery-table th {
+  background-color: var(--background-color);
+  color: white;
+}
+.pay-sallery-table tbody tr:hover td {
+  background-color:var( --bg) !important;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.pay-sallery-table tr td {
+    color: var(--text-color);
+}
+.pay-sallery-table tr td.bonuses {
+   background-color: var(--table-bg-bonuses);
+   text-align: center;
+}
+.pay-sallery-table tr td.deductions {
+   background-color: var(--table-bg-deductions);
+   text-align: center;
+}
+.pay-sallery-table td input { 
+  outline: none !important;
+  border: 1px solid #cfcfcf;
+}
+.pay-sallery-table td input:focus {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+.pay-save {
+    background-color: var(--header-color);
+    color: white;
+    border-radius: 0;
+  }
+  .pay-save:hover {
+    background-color: #5366cc;
+    color: white;
+  }

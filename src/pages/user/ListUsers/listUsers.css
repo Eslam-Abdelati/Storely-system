@@ -1,0 +1,136 @@
+
+/* start header */
+
+.list-user .btn-add {
+  background-color: #449d44;
+  color: white;
+  border: 1px solid #449d44;
+}
+.list-user .btn-add:hover {
+  background-color: #4ea851;
+}
+/* end header */
+/* start alert */
+/* .alert {
+  height: 50px;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  color: #3c763d;
+  font-size: 14px;
+}
+
+.alert-slide {
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.alert-slide.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.alert-icon {
+  color: #3c763d;
+} */
+/* end alert */
+/* start content */
+.list-user-content {
+  padding: 20px;
+  background-color: white;
+  border-top: 3px solid var(--header-color);
+  border-radius: 10px;
+}
+
+.tabel-header {
+  background-color: #f3da9c;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.filter-employee {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-employee-table {
+  font-size: 14px;
+  color: var(--text-color);
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #e7e7e7;
+}
+.filter-employee-table:active {
+  border: 1px solid #e7e7e7;
+}
+.filter-employee-table:focus {
+  border: 1px solid #e7e7e7;
+  outline: none;
+}
+.filter-employee button {
+  background-color: #449d44;
+  color: white;
+}
+.filter-employee button:hover {
+  background-color: #4ea851;
+  color: white;
+}
+.action .action-item {
+  padding: 1px 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 0;
+}
+.action .action-item:hover {
+  color: #333;
+  background-color: #e7e7e7;
+  border-color: #adadad;
+}
+.table-user {
+  width: 100%;
+}
+.search {
+  width: 170px !important;
+  height: 30px;
+}
+.list-user-content .table thead th {
+  background-color: var(--background-color);
+  color: white;
+}
+.action button {
+  background-color: #f4f4f4;
+  color: #444 ; 
+  border-radius: 3px;
+  border-color: #ddd;
+}
+.status span {
+  width: fit-content !important;
+  padding: 5px;
+  color: var(--activ) !important;
+  background-color: var(--bg-activ) !important;
+  border-radius: 5px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #969696;
+}
+
+input.user-search {
+  padding:0 5px;
+  border: 1px solid #d2d6de;
+  border-radius: 0;
+  margin-right: auto;
+}
+input.user-search:focus{
+  outline: none;
+  border-color: var( --primary-color);
+}
+
+table .active-row td,
+table .active-row th {
+  background-color: var(--bg) !important; /* اللون عند النقر */
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,40 @@
+
+.salary-items-content {
+    padding: 20px;
+    background-color: white;
+    border-top: 3px solid var(--header-color);
+    border-radius: 10px;
+}
+.salary-items-content table thead th {
+    background-color: var(--background-color);
+    color: white;
+}
+form label {
+    color: var(--text-color);
+}
+.form-check-input[type=radio] {
+    border-color: rgb(190, 190, 190);
+}
+.save {
+    border-radius: 0;
+}
+.edit {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+}
+.edit:hover {
+    background-color: #415effd7;
+    color: white;
+}
+.delet {
+    background-color: var(--not-activ);
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+}
+.delet:hover {
+    background-color: #d83a2fee;
+    color: white;
+} 

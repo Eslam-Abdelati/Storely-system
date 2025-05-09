@@ -1,0 +1,14 @@
+.modal-content {
+    margin-top: 50px;
+    border-radius: 0;
+}
+.modal-header .btn-close {
+    font-size: 12px;
+}
+.modal-body {
+    background-color: transparent;
+}
+.modal-body input,
+.modal-body textarea {
+    border-radius: 0;
+}
